@@ -1,0 +1,171 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.regform,
+.loginform {
+    background: #567;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 120px;
+    text-align: center;
+    margin: 25px 25%;
+
+}
+
+.loginform input,
+.regform input {
+    width: 70%;
+    text-align: center;
+    padding: 10px;
+    margin: 25px;
+
+}
+
+.regform input[type=submit],
+.loginform input[type=submit] {
+    text-align: center;
+    background-color: #765;
+    color: white;
+    width: 40%;
+}
+
+#gotosignin button {
+    position: absolute;
+    bottom: 36%;
+    left: 36%;
+    text-align: center;
+    background-color: transparent;
+    border: rgba(255, 166, 0, 0.479) 1px solid;
+    text-transform: uppercase;
+    color: white;
+}
+
+.mailexist {
+    position: absolute;
+    top: 10%;
+    left: 39%;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
+
+.mailexist a {
+    text-decoration: unset;
+    background-color: #765;
+    color: white;
+    /* border: #8b6239 1px solid; */
+    box-shadow: 2px 2px 2px 2px #888888;
+    padding: 5px;
+}
+
+#headerindex {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
+    text-align: center;
+    background-color: #000;
+    color: coral;
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+#headerindex marquee {
+    height: 50%;
+}
+
+#footerindex {
+    bottom: 0 !important;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: #000;
+    color: coral;
+    font-size: 80px;
+    text-transform: uppercase;
+
+}
+
+#footerhomepage {
+    position: relative;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    background-color: #000;
+    color: coral;
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+
+#indexsec {
+    position: static;
+    top: 100px;
+    text-align: center;
+    font-size: 80px;
+    background: #348cb2 url("img/bg-vds.jpg");
+    background-size: cover;
+    height: 100%;
+    color: white;
+}
+
+#indexsec p {
+    padding: 150px 0px;
+}
+
+#indexsec a {
+    text-decoration: unset;
+    color: crimson;
+}
+
+#membertable {
+    /* border:  solid rgb(255, 0, 0);
+    border-radius: 50px; */
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    background: rgba(53, 49, 49, 0.384);
+    color: white;
+}
+
+#membertable th {
+    border: solid rgb(255, 0, 0);
+    border-radius: 50px;
+}
+
+#membertable td {
+    border: solid rgb(89, 0, 255);
+    border-radius: 50px;
+
+}
+
+.logoututt,
+.logoututt a {
+    text-align: left;
+    display: inline-block;
+    width: 90%;
+    color: red;
+}
+
+.userinfo {
+    width: 50px;
+    display: inline-block;
+}
+
+/* .memberdata td:last-child {
+    border: none !important;
+    text-align: start;
+}
+
+.memberdata td:last-child input {
+    border-radius: 50px;
+    width: 50%;
+    background: red;
+    color: white;
+} */
